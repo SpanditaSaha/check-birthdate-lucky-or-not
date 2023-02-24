@@ -1,0 +1,59 @@
+:root{
+    --primary_body_color:#164e63;
+    --primary_font_color:#67e8f9;
+}
+
+body{
+    background-color: var(--primary_body_color);
+    color: var(--primary_font_color);
+    font-size: 24px;
+}
+
+h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+.container{
+    margin: auto;
+    width: 60%;
+}
+
+input {
+    display:block;
+    margin: auto;
+    text-align: center;
+    padding: 0.5rem;
+    width: 80%;
+    border: 2px solid var(--primary_font_color);
+}
+
+label{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+p{
+    text-align: center;
+}
+
+#check-lucky-button{
+    display: block;
+    margin: auto;
+    width: 20%;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-top: 2rem;
+    background-color: transparent;
+    border: 1px solid var(--primary_font_color);
+    color: var(--primary_font_color);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#check-lucky-button:hover{
+    background-color: var(--primary_font_color);
+    color: var(--primary_body_color);
+    border: 1px solid var(--primary_body_color);
+}
